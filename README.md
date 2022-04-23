@@ -1,5 +1,5 @@
 # browser-event-emitter
-EventEmitter-like syntax for browser's EventTarget.
+EventEmitter-like syntax for browser's EventTarget. Allows node-like syntax for existing EventTargets such as Video, Element, Node etc
 
 Usage:
 ```js
@@ -22,4 +22,6 @@ dispatcher.emit('anotherEvent', 2) // no value logged
 dispatcher.on('MouseMove', ({ clientX, clientY }) => console.log(clientX, clientY))
 
 dispatcher.emit('MouseMove', new MouseEvent('MouseMove', { clientX: 12, clientY: 48 })) // 12, 48
+
+document.querySelector('video').on('seeked', console.log)
 ```
