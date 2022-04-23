@@ -1,5 +1,5 @@
 {
-  "name": "browser-event-emitter",
+  "name": "browser-event-target-emitter",
   "version": "1.0.0",
   "description": "EventEmitter-like syntax for browser's EventTarget.",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ThaUnknown/browser-event-emitter"
+    "url": "https://github.com/ThaUnknown/browser-event-target-emitter"
   },
   "keywords": [
     "EventEmitter",
