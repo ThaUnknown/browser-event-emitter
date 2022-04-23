@@ -1,0 +1,25 @@
+{
+  "name": "browser-event-emitter",
+  "version": "1.0.0",
+  "description": "EventEmitter-like syntax for browser's EventTarget.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ThaUnknown/browser-event-emitter"
+  },
+  "keywords": [
+    "EventEmitter",
+    "EventTarget",
+    "browser",
+    "polyfill"
+  ],
+  "standard": {
+    "env": "browser"
+  },
+  "author": "ThaUnknown",
+  "license": "MIT"
+}
