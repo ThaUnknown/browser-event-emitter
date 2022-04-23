@@ -1,4 +1,4 @@
-# bbrowser-event-target-emitter
+# browser-event-target-emitter
 EventEmitter-like syntax for browser's EventTarget. Allows node-like syntax for existing EventTargets such as Video, Element, Node etc
 
 Usage:
