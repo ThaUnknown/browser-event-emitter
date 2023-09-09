@@ -1,6 +1,6 @@
 {
   "name": "browser-event-target-emitter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "EventEmitter-like syntax for browser's EventTarget.",
   "main": "index.js",
   "type": "module",
